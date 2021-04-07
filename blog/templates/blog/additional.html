@@ -1,0 +1,104 @@
+{% extends "blog/base.html" %}
+{% block content %}
+	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+		.card{
+			color: white;
+		}
+		#top_div{
+			color: white
+		}
+		#heading{
+			color: #F5820D;
+		}
+		.card2{
+			background: #F0F0F0;
+		}
+		.footer{
+			color: white;
+		}
+		.borders{
+    		border-width:3px !important;
+		}
+
+
+	</style>
+
+
+		<div class="D-block p-5 ml-0" id="top_div" style="background: #303030">
+			<h3 id="heading">WHAT CAN WE HELP YOU WITH TODAY?</h3>
+		</div>
+
+		<div class="row">
+			<div class="card col-sm text-center m-3 p-4"style="background: #FFCB2B ">
+				<i class="fa fa-handshake-o" style="font-size:28px;"></i>
+
+				<p>
+					Having trouble registering at Nedian blog?
+				</p>
+			</div>
+			<div class="card col-sm text-center m-3 p-4" style="background: #FFA611">
+				<i class="fa fa-handshake-o" style="font-size:28px;"></i>
+				<p>
+					Want to update your username or email? OR Want to change your profile picture?
+				</p>
+			</div>
+			<div class="card col-sm text-center m-3 p-4" style="background: #F5820D" >
+				<i class="fa fa-handshake-o" style="font-size:28px;"></i>
+				<p>
+					Forgot your Nedian blog account password?
+				</p>
+			</div>
+
+		</div>
+		<div class="row">
+			<div class="card2 col-sm text-center m-3 p-4">
+				It might be that the username that you’re choosing already exists.
+				Try mixing it up with some digits or special characters like _ /. / + / - / @.
+			</div>
+			<div class="card2 col-sm text-center m-3 p-4">
+				Just go to your profile page and simply re-enter the information and click on update.
+				Just go to your profile page and simply click on the choose file option, select the desired picture and click on update.
+				Voila! Your profile picture is updated.
+			</div>
+			<div class="card2 col-sm text-center m-3 p-4" >
+				Don’t worry, you can easily reset it by clicking on the ‘forgot your password’ option when
+				logging in; enter the email that you have used for your account and click on the request the
+				password button. Check your email for the reset password link, click on it and type in your
+				new password and hit the reset password option.
+			</div>
+
+		</div>
+
+		<div class="row text-center">
+			<div class="col-sm mt-4 p-2" style="font-size: 144px; color: #FFA611">
+				<!-- <i class="fa fa-search fa-lg"></i> -->
+				<i class="fas fa-blog fa-lg"></i>
+			</div>
+
+			<div class="col-sm mt-4">
+				<div class="row mb-4 border-top border-bottom borders">
+						<h2 class="col-md-1 text-left mt-3">1</h2>
+						<p class="col-md-8 text-left">If you want to delete your post just click on your post you want to delete, select the delete button
+							on top of your post then
+						   just select the reconfirming ‘yes, delete’ option and your post will be no more.</p>
+				</div>
+				<div class="row mb-4 border-bottom borders">
+						<h2 class="col-md-1 text-left mt-3">2</h2>
+						<p class="col-md-8 text-left"> If you want to update your post just click on your post that you want to correct,
+							select the update button on top of your post;
+						    make all the changes and corrections that you want in your blog post and then just click on the post button.</p>
+				</div>
+				<div class="row mb-4 border-bottom borders">
+						<h2 class="col-md-1 text-left mt-3">3</h2>
+						<p class="col-md-8 text-left">If you want to view someone's blog post just click on their username and you can
+						 view the entire post thread of that particular user. </p>
+				</div>
+			</div>
+		</div>
+
+		</div>
+
+
+{% endblock content%}
